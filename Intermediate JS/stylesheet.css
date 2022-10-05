@@ -1,0 +1,18 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    color: beige;
+}
+
+h1 {
+    color: black;
+    font-size: 50px;
+    text-align: center;
+}
+
+.city { 
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+    font-size: 20;
+    color: black;
+}
