@@ -22,7 +22,7 @@ function nerdAlert(){
 }
 
 function consoleDebug(){
-    //Check the output using developer tools
+    //Note: Check the output using tjhe console of developer tools
 
     let x = 5;
     let y = 6;
@@ -37,8 +37,8 @@ function consoleDebug(){
     console.log(w+v);
 }
 
+//Printing the typeof of different data typoes in the browser console
 function dataTypes(){
-    //Printing the typeof of different data typoes in the browser console
 
     const pi = 3.14159;
     var obj = {name:"Rohan Singh", age : 17, favConstant : pi};
@@ -47,5 +47,26 @@ function dataTypes(){
     console.log(typeof(obj.name));
     console.log(typeof(obj.age));
     console.log(typeof(obj.favConstant));
+
+}
+
+//Traversing through an array and writinng the output in an unordered list
+function printArray(){
+    //Creating the array
+    const carList = ["BMW","Mercedes-Benz","Volkswagen","Audi","Porsche"];
+
+    var text = "Here's a list of my favorite cars: <br>";
+
+    //Adding the list item into the text variable
+    for(let i = 0; i < carList.length; i++){
+        text += "<li>" + carList[i] + "</li>";
+        
+    }
+
+    //Debugging
+    //console.log(text);
+
+    //Writing the html text into the list section
+    document.getElementById("Some List").innerHTML = text;
 
 }
