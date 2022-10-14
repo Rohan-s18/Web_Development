@@ -70,3 +70,30 @@ function printArray(){
     document.getElementById("Some List").innerHTML = text;
 
 }
+
+//Creating a function with parameters and using a return statement
+function changeTemperature(fahrenheit){
+
+    let cel = (5/9) * (fahrenheit - 32);
+
+    return cel;
+}
+
+//Using a function within a different function
+//Printing the first 100 degress fahrenheit in celsius
+function displayTemp(){
+    
+    //Initializing a temporary storage variable
+    let temp = 0;
+
+    console.log("Fahrenheit : Celsius");
+
+    //Traversing through an array
+    for(let i = 0; i <= 100; i++){
+        temp = changeTemperature(i);
+
+        //Printing the 2 variables into the console
+        console.log(i, temp);
+    }
+
+}
