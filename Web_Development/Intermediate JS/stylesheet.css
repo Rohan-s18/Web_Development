@@ -1,0 +1,55 @@
+body, html{
+    font-family: 'Times New Roman', Times, serif;
+    color: beige;
+    height: 100%;
+}
+
+.bg{
+    background-image: url("eurobg.png");
+
+    height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: black;
+    font-size: 50px;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+img{
+    border-radius: 10%;
+    
+}
+
+div.gallery { 
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+    font-size: x-large;
+    font-weight: bold;
+    color: black;
+    float: left;
+    width: 360px;
+}
+
+div.gallery:hover{
+    border: 1px solid #777;
+}
+
+div.gallery img{
+    width: 100%;
+    height: auto;
+}
+
+div.desc{
+    padding: 15px;
+    text-align: left;
+}
