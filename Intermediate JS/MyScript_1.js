@@ -95,5 +95,27 @@ function displayTemp(){
         //Printing the 2 variables into the console
         console.log(i, temp);
     }
+}
+
+//Iterating through an array using a for-each loop
+function printCars(){
+    const germanCars = ["BMW","Mercedes-Benz","Volkswagen","Audi","Porsche"];
+
+    //Creating a string to hold the text
+    var cartext = "[";
+
+    //Using a for-each loop in JavaScript
+    for(let x of germanCars){
+        cartext += x;
+        cartext += ", ";
+    }
+
+    //Removing the extra comma
+    cartext = cartext.slice(0,cartext.length-2);
+    cartext += "]";
+
+    //Printing out the car text in the console
+    console.log(cartext);
 
 }
+
