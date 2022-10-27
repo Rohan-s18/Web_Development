@@ -62,7 +62,7 @@ class Board extends React.Component {
             //Resetting the value of squares (updated)
             squares: squares,
             //Changing the value of turn to the opposite
-            xIsNext: !this.state.turn,
+            turn: !this.state.turn,
         });
     }
   
