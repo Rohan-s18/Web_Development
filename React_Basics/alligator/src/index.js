@@ -5,22 +5,14 @@ const element = <h1>Hello World!</h1>
 
 class Course extends React.Component{
 
-    //Constructor for the course object
-    constructor(name, code, instructor, notes){
-        this.courseName = name;
-        this.courseCode = code;
-        this.courseInstructor = instructor;
-        this.courseExtra = notes;
-    }
-
     //Render: Creating a table row for the course
     render(){
         return (
-            <tr>
-            <td>{this.courseCode}</td>
-            <td>{this.courseName}</td>
-            <td>{this.courseInstructor}</td>
-            <td>{this.courseExtra}</td>
+        <tr>
+            <td>{this.props.courseCode}</td>
+            <td>{this.props.courseName}</td>
+            <td>{this.props.courseInstructor}</td>
+            <td>{this.props.courseExtra}</td>
         </tr>
         );
     }
@@ -44,7 +36,8 @@ class Schedule extends React.Component{
     //Render: Creating a table for all of the courses
     render(){
         return (
-            <>
+            <html>
+            <body>
             <h1>Depth Requirements</h1>
             <table className='Schedule'>
                 {this.renderCourse("Intro to Java","CSDS 132","Harold Connamacher","No Prereq")}
@@ -56,8 +49,8 @@ class Schedule extends React.Component{
 
 
             </table>
-            </>
-
+            </body>
+            </html>
         );
     }
 
