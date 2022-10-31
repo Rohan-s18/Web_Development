@@ -9,10 +9,10 @@ class Course extends React.Component{
     render(){
         return (
         <tr>
-            <td>{this.props.courseCode}</td>
-            <td>{this.props.courseName}</td>
-            <td>{this.props.courseInstructor}</td>
-            <td>{this.props.courseExtra}</td>
+            <td className='Schedule'>{this.props.courseCode}</td>
+            <td className='Schedule'>{this.props.courseName}</td>
+            <td className='Schedule'>{this.props.courseInstructor}</td>
+            <td className='Schedule'>{this.props.courseExtra}</td>
         </tr>
         );
     }
