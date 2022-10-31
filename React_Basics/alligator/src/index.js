@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import './index.css';
 
 const element = <h1>Hello World!</h1>
 
@@ -40,6 +41,10 @@ class Schedule extends React.Component{
             <body>
             <h1>Depth Requirements</h1>
             <table className='Schedule'>
+                <th>Course Code</th>
+                <th>Course Name</th>
+                <th>Instructor</th>
+                <th>Pre-requisites</th>
                 {this.renderCourse("Intro to Java","CSDS 132","Harold Connamacher","No Prereq")}
                 {this.renderCourse("Data Structures","CSDS 233","Erman Ayday","CSDS 132")}
                 {this.renderCourse("Logic Design","CSDS 281","Evren Gurkan Cavasoglu","CSDS 132 or ENGR 131")}
