@@ -1,4 +1,14 @@
 
-table, th, td{
-    border: 3px solid black; color: black
+.Schedule{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    border: 3px solid black; 
+    color: black;
+}
+
+th{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    border: 3px solid black;
+    color: black;
 }
