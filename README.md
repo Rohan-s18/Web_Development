@@ -5,16 +5,19 @@ This is a web development repository made up of web development projects ranging
 
 Under this repository there are multiple source code folders:  
 
-1) Simple Stuff: Extremely basic HTML/CSS and JavaScript code, which should be able to cover the basic concepts of all of the three.  
+1) **Simple Stuff:** Extremely basic HTML/CSS and JavaScript code, which should be able to cover the basic concepts of all of the three.  
 
-2) Intermediate JS: This contains slightly more intermediate JavaScript code, doesn't contain a lot of sparkly webpages. Most of the work here includes:      
+2) **Intermediate JS:** This contains slightly more intermediate JavaScript code, doesn't contain a lot of sparkly webpages. Most of the work here includes:       
     - Checking the different Output formats.  
     - Using different data types.  
     - Using Arrays and traversing through them.  
     - Using Objects.  
     - Calling functions and making them slightly more complex.  
 
-3) React Basics: Diving into the basics of React.js  
+3) **React Basics:** Diving into the basics of React.js. this directory includes the following:  
+    - **Tic Tac Toe game:** just a simple program using react js, has simple classes and rendering.  
+    - **Static Course Selection Page:** slightly more advanced react project, which can be used by people for course selection.  
+    - **Dynamic Course Selection Page:** Built on the previous react project, but with db connection which would make it easier to check course selection.  
 
 Future projects will include:  
     - Django  
