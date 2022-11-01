@@ -20,7 +20,7 @@ class Course extends React.Component{
 
 }
 
-class Schedule extends React.Component{
+class CoreReq extends React.Component{
 
     //Render course helper method
     renderCourse(name, code, instructor, notes){
@@ -39,12 +39,13 @@ class Schedule extends React.Component{
         return (
             <html>
             <body>
-            <h1>Depth Requirements</h1>
-            <table className='Schedule'>
-                <th>Course Code</th>
-                <th>Course Name</th>
-                <th>Instructor</th>
-                <th>Pre-requisites</th>
+            <h1>Core Requirements for CS Majors</h1>
+            <p>The following courses are the Core Requirements for students pursuing a Bachelor of Science in Computer Science. All students must take all of thes courses.</p>
+            <table className='schedTable'>
+                <th className='Schedule'>Course Code</th>
+                <th className='Schedule'>Course Name</th>
+                <th className='Schedule'>Instructor</th>
+                <th className='Schedule'>Pre-requisites</th>
                 {this.renderCourse("Intro to Java","CSDS 132","Harold Connamacher","No Prereq")}
                 {this.renderCourse("Data Structures","CSDS 233","Erman Ayday","CSDS 132")}
                 {this.renderCourse("Logic Design","CSDS 281","Evren Gurkan Cavasoglu","CSDS 132 or ENGR 131")}
@@ -62,8 +63,20 @@ class Schedule extends React.Component{
 
 }
 
+class Requirements extends React.Component{
+
+    //Class for the table of the required courses to become a Cum Sci major
+
+    render(){
+        return (
+            <CoreReq />
+        );
+    }
+
+}
+
 
 //===================================================================================================================================================================================================
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<Schedule />);
+root.render(<Requirements />);
