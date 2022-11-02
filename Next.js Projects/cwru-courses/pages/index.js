@@ -1,7 +1,29 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import repo from '../components/RepositoryList'
+import RepositoryList from '../components/RepositoryList'
 
+export default function index(){
+  return(
+    <div className={styles.container}>
+      <Head>
+        <title>Rohan's Repositories</title>
+      </Head>
+
+      <main className={styles.main}>
+        <h1 className={styles.title}>Check out my repositories</h1>
+
+        
+          <RepositoryList />
+        
+      </main>
+
+    </div>
+  )
+}
+
+/*
 export default function tempPage(){
     return(
         <div className={styles.container}>
@@ -49,3 +71,4 @@ export default function tempPage(){
         </div>
     )
 }
+*/
