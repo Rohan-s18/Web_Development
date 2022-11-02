@@ -7,11 +7,11 @@ export default function tempPage(){
         <div className={styles.container}>
 
             <Head>
-                <title>Rohan's Repositories</title>
+                <title>Test Page</title>
             </Head>
 
             <main className={styles.main}>
-                <h1 className={styles.title}>Check out my repositories</h1>
+                <h1 className={styles.title}>Check out my Public Repositories</h1>
 
                 <div className={styles.grid}>
 
