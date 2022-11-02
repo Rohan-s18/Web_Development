@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
+//Component for the list of my repositories
+
 export default function RepositoryList(){
     return(
         <div className={styles.grid}>
