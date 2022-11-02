@@ -18,6 +18,8 @@ Under this repository there are multiple source code folders:
     - **Tic Tac Toe game:** just a simple program using react js, has simple classes and rendering.  
     - **Static Course Selection Page:** slightly more advanced react project, which can be used by people for course selection.  
     - **Dynamic Course Selection Page:** Built on the previous react project, but with db connection which would make it easier to check course selection.  
+4) **Next.js Basics:** Making Full Stack web-applications using Next.js, this directory includes:  
+    - **Cwru-Courses:** A dynamic web appllication that can be used to view different CWRU courses, this web application is connected to MongoDB schemas.  
 
 Future projects will include:  
     - Django  
