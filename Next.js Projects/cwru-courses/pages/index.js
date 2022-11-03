@@ -10,12 +10,12 @@ export default function index(){
   return(
     <div className={styles.container}>
       <Head>
-        <title>Rohan's Repositories</title>
+        <title>Rohan and Alessandra's Repositories</title>
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Check out my repositories</h1>
-
+        <h1 className={styles.title}>Check out our Repositories</h1>
+          
         
           <RepositoryList />
         
