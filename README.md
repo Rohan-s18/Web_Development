@@ -26,5 +26,5 @@ Future projects will include:
     - Bootstrap  
     - Flask  
 
-This repository is maintained by Alessandra Puccio and Rohan Singh :)
+This repository is maintained by Ali Puccio and Rohan Singh :)
  
