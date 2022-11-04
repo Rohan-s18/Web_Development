@@ -19,6 +19,7 @@ Under this repository there are multiple source code folders:
     - **Static Course Selection Page:** slightly more advanced react project, which can be used by people for course selection.  
     - **Dynamic Course Selection Page:** Built on the previous react project, but with db connection which would make it easier to check course selection.  
 4) **Next.js Basics:** Making Full Stack web-applications using Next.js, this directory includes:  
+    - **intro-project:** An introductory project for Next.js, this project just looks at the front-end part of this framework.  
     - **Cwru-Courses:** A dynamic web appllication that can be used to view different CWRU courses, this web application is connected to MongoDB schemas.  
 
 Future projects will include:  
