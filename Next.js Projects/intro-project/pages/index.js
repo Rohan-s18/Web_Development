@@ -14,7 +14,7 @@ export default function Home(){
 
           <main className={styles.main}>
 
-            <h1 className={styles.title}>Check out our Repositories</h1>
+            <h1 className={styles.title}>Check out Rohan and Alessandra's Repositories</h1>
           
             <RepositoryList />
         
