@@ -24,7 +24,7 @@ export default function RepositoryList(){
 
                 <div className={styles.card}>
                     <h2>Tsuro</h2>
-                    <p>Repository containing the source code for a 2-person Tsuro game in Java.</p>
+                    <p>Repository containing the source code for a 2-person Tsuro game in Java. Tsuro is A two-person board game in which players place tiles on a board and attempt to create the longest path through their tiles.</p>
                 </div>
                 
             </Link>
@@ -44,7 +44,7 @@ export default function RepositoryList(){
                 
                 <div  className={styles.card}>
                     <h2>Girls who code</h2>
-                    <p>Repository for Girls who code at Case Western Reserve University.</p>
+                    <p>Repository for Girls Who Code at Case Western Reserve University. This is a really good group that promotes coding among females.</p>
                 </div>
 
             </Link>
