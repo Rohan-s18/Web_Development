@@ -1,5 +1,5 @@
 # Web Development
-## Authors: Rohan Singh and Alessandra Puccio
+## Authors: Rohan Singh 
 
 This is a web development repository made up of web development projects ranging from the basics of web development to more advanced web applications. The Source code contains HTML, CSS, JavaScript, React and Node.js, the repository also contains multimedia which we have used in certain web pages as well. The goal of this repository is to track our web development process and benchmark everything that we have been learning.
 
@@ -27,5 +27,5 @@ Future projects will include:
     - Bootstrap  
     - Flask  
 
-This repository is maintained by Ali Puccio and Rohan Singh :)
+This repository is maintained by Rohan Singh :)
  
